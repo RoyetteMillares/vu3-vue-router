@@ -3,30 +3,50 @@
         "id": 1,
         "name": "Chevy",
         "price": 2500,
-        "year": 2005
+        "year": 2005,
+        "contact": {
+            "dealer": "Zeanne Pretty1",
+            "number": "0950-848-1324"
+        }
     },
     {
         "id": 2,
         "name": "Ferarri",
         "price": 18000000,
-        "year": 2005
+        "year": 2005,
+        "contact": {
+            "dealer": "Zeanne Pretty2",
+            "number": "0950-848-1324"
+        }
     },
     {
         "id": 3,
         "name": "Lamborghini",
         "price": 20000000,
-        "year": 2005
+        "year": 2005,
+        "contact": {
+            "dealer": "Zeanne Pretty3",
+            "number": "0950-848-1324"
+        }
     },
     {
         "id": 4,
         "name": "Nissan GTR",
         "price": 8000000,
-        "year": 2022
+        "year": 2022,
+        "contact": {
+            "dealer": "Zeanne Pretty4",
+            "number": "0950-848-1324"
+        }
     },
     {
         "id": 5,
         "name": "BMW X5",
         "price": 1250000,
-        "year": 2010
+        "year": 2010,
+        "contact": {
+            "dealer": "Zeanne Pretty5",
+            "number": "0950-848-1324"
+        }
     }
 ]
