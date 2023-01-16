@@ -1,10 +1,13 @@
 <script setup>
-import { useRoute, RouterView } from 'vue-router';
+import { useRoute, useRouter, RouterView } from 'vue-router';
 import cars from '../data/cars.json'
 
 const route = useRoute()
+const router = useRouter();
 
-const car = cars.find(c => c.id === parseInt(route.params.id))
+const currentId = parseInt(route.params.id)
+
+const car = cars.find(c => c.id === currentId)
 
 </script>
 
@@ -15,6 +18,7 @@ const car = cars.find(c => c.id === parseInt(route.params.id))
         <p>Name: {{ car.name }}</p>
         <p>Price: {{ car.price }}</p>
         <p>Year: {{ car.year }}</p>
+        <button @click="router.push(`/cars/${currentId}/contact`)">Contact Us</button>
         <RouterView />
     </section>
 
